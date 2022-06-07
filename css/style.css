@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: black;
+    padding-top: 21px;
+    padding-bottom: 22px;
+}
+header .container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container nav ul{
+    display: flex;
+}
+.container nav ul li:first-of-type{
+    padding-left: 84px;
+}
+.container nav ul li{
+    padding-right: 40px;
+}
+
+.container nav ul li a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__btn{
+    padding-left: 256px;
+}
+.header__btn a{
+    font-family: 'Open Sans';
+    color: white;
+    padding: 15px 30px;
+    background-color: #3A68B8;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section{
+    background-color: black;
+}
+section .container{
+    max-width: 1200px;
+    margin: auto;
+}
+.about__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content h2{
+    font-family: 'Open Sans';
+    padding-top: 160px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #3A68B8;
+    padding-bottom: 10px;
+}
+.about__content h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+    color: white;
+    padding-bottom: 40px;
+}
+.about__content p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-bottom: 50px;
+}
+.butomn{
+    display: flex;
+}
+.butomn a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #3A68B8;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.second__btn{
+    padding-left: 20px;
+}
+.inner__img{
+    padding-bottom: 89px;
+}
+.sponsors ul{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.all__content{
+    display: flex;
+    padding-bottom: 170px;
+}
+.data__content h2{
+    padding-top: 302px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: white;
+    padding-bottom: 30px;
+}
+.data__content p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-bottom: 50px;
+}
+.data__content a{
+    padding: 15px 30px;
+    background-color: #3A68B8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
