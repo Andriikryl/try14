@@ -63,6 +63,12 @@ section .container{
 .about__inner{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 197px;
+}
+
+.about__content{
+    width: 100%;
+    max-width: 604px;
 }
 
 .about__content h2{
@@ -111,6 +117,11 @@ section .container{
 }
 .inner__img{
     padding-bottom: 89px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    width: 632px;
+    height: 634px;
 }
 .sponsors ul{
     display: flex;
